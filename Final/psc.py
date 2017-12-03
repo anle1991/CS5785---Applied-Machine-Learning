@@ -41,7 +41,7 @@ def visualize(index):
     for n in index:
         s = str(n)+".jpg"
         print (s)
-        pic = mpimg.imread('lena.png') 
+        pic = mpimg.imread(s) 
         plt.imshow(pic)
         plt.axis('off')
         plt.show()
